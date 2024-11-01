@@ -1,12 +1,6 @@
-class Commands:
-    def __init__(self, user):
-        self.user = user
-        if user == "Atharv":
-            print("Access Granted")
-        else:
-            print("Acess Denied")
-            exit()
-            
+class Math:
+    def __init__(self):
+        pass
     def add(self):
         add_1 = float(input("Enter the first number which you want to add: "))
         add_2= float(input("Enter the second number you want to add:"))
@@ -104,3 +98,12 @@ class Commands:
         per_2 = float(input("Enter the number of percentage you want to take out of the value: "))
         print(f"The percentage is {(per_2/per_1)*100}%")
         
+while True:
+    main = Math()
+    
+    print("Welcome to the Math CLI created by Atharv Sharma")
+    cmd = input(">>$ ")
+    if cmd == "sum":
+        main.add()
+        
+    
