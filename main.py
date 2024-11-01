@@ -62,4 +62,45 @@ class Commands:
         ex_2 = float(input("Enter the power of the exponent: "))
         print(f"The number calculated is {ex_1**ex_2}")
         
+    def circumference(self):
+        circum_1 = float(input("Enter the radius of the circle: "))
+        print(f"The circumference of the circle is {2*3.14*circum_1}")
+    
+    def area_circle(self):
+        ar_c_1 = float(input("Enter the radius of the circle: "))
+        print(f"The area of the circle is {3.14*ar_c_1**2}")
+        
+    def peri_square(self):
+        peri_sq_1= float(input("Enter the side of the square"))
+        print(f"The perimeter of the square is {peri_sq_1*4}")
+        
+    def area_square(self):
+        ar_sq_1 = float(input("Enter the side of the square: "))
+        print(f"The area of the square is {ar_sq_1**2}")
+    
+    def peri_rectangle(self):
+        peri_rect_1 = float(input("Enter the length of the rectangle: "))
+        peri_rect_2 = float(input("Enter the breadth of the rectangle: "))
+        print(f"The perimeter of the rectangle is : {2(peri_rect_1+peri_rect_2)}")
+    
+    def area_rectangle(self):
+        ar_rect_1 = float(input("Enter the length of the rectangle: "))
+        ar_rect_2 = float(input("Enter the breadth of the rectangle: "))
+        print(f"The area of the rectangle is {ar_rect_1*ar_rect_2}")
+        
+    def peri_triangle(self):
+        peri_tri_1 = float(input("Enter the 1st side of the triangle: "))
+        peri_tri_2 = float(input("Enter the 2nd side of the triangle: "))
+        peri_tri_3 = float(input("Enter the 3rd side of the triangle: "))
+        print(f"The perimeter of the triangle is {peri_tri_1+peri_tri_2+peri_tri_3}")
+        
+    def area_triangle(self):
+        ar_tri_1 = float(input("Enter the base of the triangle: "))
+        ar_tri_2 = float(input("Enter the height of the triangle: "))
+        print(f'The area of the triangle is {0.5*ar_tri_1*ar_tri_2}')
+        
+    def percentage(self):
+        per_1 = float(input("Enter the value of which you want the percentage of : "))
+        per_2 = float(input("Enter the number of percentage you want to take out of the value: "))
+        print(f"The percentage is {(per_2/per_1)*100}%")
         
