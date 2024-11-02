@@ -145,6 +145,19 @@ while True:
     elif cmd == "squarearea":
         main.area_square()
         
-    elif 
+    elif cmd == "rectperi":
+        main.peri_rectangle()
+        
+    elif cmd == "rectarea":
+        main.area_rectangle()
+    
+    elif cmd  == "triperi":
+        main.peri_triangle()
+        
+    elif cmd == "triarea":
+        main.area_triangle()
+    
+    elif cmd == "per":
+        main.percentage()
     else:
         print("Wrong command!")
