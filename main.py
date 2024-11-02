@@ -106,4 +106,45 @@ while True:
     if cmd == "sum":
         main.add()
         
+    elif cmd == "diff":
+        main.subtract()
+        
+    elif cmd == "multiply":
+        main.multiply()
     
+    elif cmd == "div":
+        main.divide()
+    
+    elif cmd == "sq":
+        main.square()
+    
+    elif cmd == "cu":
+        main.cube()
+    
+    elif cmd == "sqrt":
+        main.sq_root()
+
+    elif cmd == "curt":
+        main.cu_root()
+        
+    elif cmd == "rem":
+        main.remainder()
+        
+    elif cmd == "exp":
+        main.exponent()
+        
+    elif cmd == "circum":
+        main.circumference()
+        
+    elif cmd == "circlearea":
+        main.area_circle()
+        
+    elif cmd == "squareperi":
+        main.peri_square()
+    
+    elif cmd == "squarearea":
+        main.area_square()
+        
+    elif 
+    else:
+        print("Wrong command!")
