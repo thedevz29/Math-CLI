@@ -97,12 +97,12 @@ class Math:
         per_1 = float(input("Enter the value of which you want the percentage of : "))
         per_2 = float(input("Enter the number of percentage you want to take out of the value: "))
         print(f"The percentage is {(per_2/per_1)*100}%")
-        
+print("Welcome to the Math CLI created by Atharv Sharma")        
 while True:
     main = Math()
     
-    print("Welcome to the Math CLI created by Atharv Sharma")
-    cmd = input(">>$ ")
+
+    cmd = input("mathcli>$ ")
     if cmd == "sum":
         main.add()
         
@@ -159,5 +159,7 @@ while True:
     
     elif cmd == "per":
         main.percentage()
+    elif cmd == "end":
+        exit()
     else:
         print("Wrong command!")
